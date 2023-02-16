@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.signuptxt {
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  left: 1230px;
+  top: 150px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    162.99deg,
+    #2958ae 11.71%,
+    rgba(41, 88, 174, 0) 121.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: normal;
+}
+.jarvislogo1 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -30px;
+  left: 1190px;
+}
+.nameicon {
+  position: absolute;
+  width: 26.61px;
+  height: 23.54px;
+  left: 1168px;
+  top: 270px;
+}
+.nametxt {
+  position: absolute;
+  left: 1204px;
+  top: 270px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+}
+.nametextbox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 1168px;
+  top: 310px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 0.8px solid #000000;
+  border-radius: 20px;
+  padding-left: 30px;
+}

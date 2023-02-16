@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.Text {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #2958ae;
+}
+.ageText {
+  position: absolute;
+  left: 369px;
+  top: 180px;
+}
+.typeText {
+  position: absolute;
+  left: 852.06px;
+  top: 180px;
+}
+.locationText {
+  position: absolute;
+  left: 369px;
+  top: 320px;
+}
+.ethnicityText {
+  position: absolute;
+  left: 852.06px;
+  top: 320px;
+}
+.stageText {
+  position: absolute;
+  left: 374px;
+  top: 460px;
+}
+.codeText {
+  position: absolute;
+  left: 852.06px;
+  top: 460px;
+}
+.ageTextbox {
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 364px;
+  top: 210px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.typeTextbox {
+  position: absolute;
+  width: 580px;
+  height: 70px;
+  left: 844px;
+  top: 210px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.locationTextbox {
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 364px;
+  top: 350px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.ethnicityTextbox {
+  position: absolute;
+  width: 580px;
+  height: 70px;
+  left: 844px;
+  top: 350px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.stageTextbox {
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 369px;
+  top: 490px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.codeTextbox {
+  position: absolute;
+  width: 580px;
+  height: 70px;
+  left: 844px;
+  top: 490px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.submitbutton {
+  position: absolute;
+  width: 270px;
+  height: 80px;
+  left: 700px;
+  top: 650px;
+  background: #2958ae;
+  border-radius: 30px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}

@@ -1,14 +1,7 @@
 import React from 'react'
 import '../styles/Sidebar.css'
-import EdithLogo from '../assets/EDITH.png'
-import {
-  FaTh,
-  FaUserAlt,
-  FaRegChartBar,
-  FaCommentAlt,
-  FaShoppingBag,
-  FaThList
-} from 'react-icons/fa'
+import JarvisLogo from '../assets/jarvis.png'
+import { FaThList, FaSistrix, FaUserPlus, FaFileAlt } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = ({ children }) => {
@@ -16,32 +9,22 @@ const Sidebar = ({ children }) => {
     {
       path: '/dashboard',
       name: 'Dashboard',
-      icon: <FaTh />
-    },
-    {
-      path: '/patients',
-      name: 'Patients',
-      icon: <FaUserAlt />
-    },
-    {
-      path: '/datavisualization',
-      name: 'Data Visualization',
-      icon: <FaRegChartBar />
-    },
-    {
-      path: '/advancedsearch',
-      name: 'Advanced Search',
-      icon: <FaCommentAlt />
-    },
-    {
-      path: '/doctors',
-      name: 'Doctors',
-      icon: <FaShoppingBag />
-    },
-    {
-      path: '/settings',
-      name: 'Settings',
       icon: <FaThList />
+    },
+    {
+      path: '/search',
+      name: 'Search',
+      icon: <FaSistrix />
+    },
+    {
+      path: '/addDetails',
+      name: 'Add Details',
+      icon: <FaUserPlus />
+    },
+    {
+      path: '/docs',
+      name: 'Docs',
+      icon: <FaFileAlt />
     }
   ]
   return (
@@ -49,7 +32,7 @@ const Sidebar = ({ children }) => {
       <div className='sidebar'>
         <div className='top_section'>
           <h1 className='logo'>
-            <img className='logo' src={EdithLogo} alt='EDITH LOGO!' />
+            <img className='logo' src={JarvisLogo} alt='Jarvis LOGO!' />
           </h1>
         </div>
         {menuItem.map((item, index) => (

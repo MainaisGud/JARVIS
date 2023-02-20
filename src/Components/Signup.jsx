@@ -38,7 +38,11 @@ const Signup = ({ handleClick }) => {
   const handlePasswordChange = event => {
     setPassword(event.target.value)
   }
-  const handleSubmit = event => {
+  const goToLogin = event => {
+    window.location.href = '/login'
+  }
+
+  const handleSubmit = async event => {
     event.preventDefault()
     const submitData = {
       name: name,
@@ -46,6 +50,20 @@ const Signup = ({ handleClick }) => {
       password: password
     }
     console.log(submitData)
+    let response = await fetch('http://127.0.0.1:3001/user/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(submitData)
+    })
+    console.log(response)
+    if (response.status === 200) {
+      alert('User registered!')
+      window.location.href = '/login'
+    } else {
+      alert('User already exists!')
+    }
   }
 
   return (
@@ -76,7 +94,7 @@ const Signup = ({ handleClick }) => {
         />
         <input
           className='passwordtextbox'
-          type='text'
+          type='password'
           value={password}
           onChange={handlePasswordChange}
         />
@@ -85,7 +103,7 @@ const Signup = ({ handleClick }) => {
         </button>
       </form>
       <div className='promptText'>Already have an account?</div>
-      <div className='txtbutton' onClick={event => handleClick([0, 1])}>
+      <div className='txtbutton' onClick={goToLogin}>
         Login
       </div>
     </Fragment>

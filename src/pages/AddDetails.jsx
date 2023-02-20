@@ -117,6 +117,4 @@ const AddDetails = () => {
   )
 }
 
-
-
 export default AddDetails

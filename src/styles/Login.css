@@ -22,7 +22,7 @@ main {
   position: absolute;
   width: 300px;
   height: 120px;
-  left: 1168px;
+  left: 1200px;
   top: 220px;
   font-family: 'League Spartan';
   font-style: normal;
@@ -160,4 +160,5 @@ main {
   border-radius: 2px;
   color: #042b74;
   transition: all 0.5s;
+  cursor: pointer;
 }

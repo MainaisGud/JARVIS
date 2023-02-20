@@ -4,6 +4,7 @@ import JarvisLogo from '../assets/jarvis.png'
 import EmailIcon from '../assets/email_icon.png'
 import PasswordIcon from '../assets/password_icon.png'
 import Granim from 'granim'
+import Home from './Home'
 const Login = ({ handleClick }) => {
   useEffect(() => {
     new Granim({
@@ -32,13 +33,30 @@ const Login = ({ handleClick }) => {
   const handlePasswordChange = event => {
     setPassword(event.target.value)
   }
-  const handleSubmit = event => {
+  const goToSignup = event => {
+    window.location.href = '/signup'
+  }
+  const handleSubmit = async event => {
     event.preventDefault()
     const submitData = {
       email: email,
       password: password
     }
     console.log(submitData)
+    let response = await fetch('http://127.0.0.1:3001/user/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(submitData)
+    })
+    console.log(response)
+    if (response.status === 200) {
+      console.log('Logged In')
+      window.location.href = '/dashboard'
+    } else {
+      console.log('Login Failed')
+    }
   }
 
   return (
@@ -61,7 +79,7 @@ const Login = ({ handleClick }) => {
         />
         <input
           className='passwordtextbox'
-          type='text'
+          type='password'
           value={password}
           onChange={handlePasswordChange}
         />
@@ -70,9 +88,10 @@ const Login = ({ handleClick }) => {
         </button>
       </form>
       <div className='promptText'>Don't have an account yet?</div>
-      <div className='txtbutton' onClick={event => handleClick([1, 0])}>
+      <div className='txtbutton' onClick={goToSignup}>
         SignUp
       </div>
+
     </Fragment>
   )
 }

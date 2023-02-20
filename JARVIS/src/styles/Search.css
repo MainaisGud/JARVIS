@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.name_idtxtbox {
+  position: absolute;
+  width: 1006.12px;
+  height: 161.33px;
+  left: 530px;
+  top: 450px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 35px;
+  color: #565151;
+  padding-left: 50px;
+}
+.NameInputPropmt {
+  position: absolute;
+  width: 725.47px;
+  height: 93.67px;
+  left: 550px;
+  top: 330px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #2958ae;
+}
+.NameInputPropmt2 {
+  position: absolute;
+  width: 725.47px;
+  height: 93.67px;
+  left: 550px;
+  top: 370px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #817d7d;
+}
+.searchbutton {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 850px;
+  top: 731px;
+  background: #2958ae;
+  border-color: #2958ae;
+  border-radius: 30px;
+
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-left: 100px;
+}
+.resultContainer {
+  position: absolute;
+  width: 947px;
+  height: 700px;
+  left: 580px;
+  top: 220px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.resultID {
+  position: absolute;
+  width: 480px;
+  height: 96px;
+  left: 60px;
+  top: 60px;
+  background: #2958ae;
+  border-radius: 80px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+.resultStatus {
+  position: absolute;
+  width: 241px;
+  height: 96px;
+  left: 650px;
+  top: 60px;
+  background: #ff0091;
+  border-radius: 80px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.resultstxt {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.resultReason {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+}
+.resultCity {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+.resultCityVal {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+}
+.resultAge {
+  position: absolute;
+  top: 210px;
+  left: 80px;
+}
+.resultAgeVal {
+  position: absolute;
+  top: 210px;
+  left: 350px;
+}
+.resultGender {
+  position: absolute;
+  top: 240px;
+  left: 80px;
+}
+.resultGenderVal {
+  position: absolute;
+  top: 240px;
+  left: 350px;
+}
+.resultMonthlyCharges {
+  position: absolute;
+  top: 270px;
+  left: 80px;
+}
+.resultMonthlyChargesVal {
+  position: absolute;
+  top: 270px;
+  left: 350px;
+}
+.resultPhoneService {
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+.resultPhoneServiceVal {
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
+.resultMultipleLines {
+  position: absolute;
+  top: 330px;
+  left: 80px;
+}
+.resultMultipleLinesVal {
+  position: absolute;
+  top: 330px;
+  left: 350px;
+}
+.resultInternetService {
+  position: absolute;
+  top: 360px;
+  left: 80px;
+}
+.resultInternetServiceVal {
+  position: absolute;
+  top: 360px;
+  left: 350px;
+}
+.resultInternetType {
+  position: absolute;
+  top: 390px;
+  left: 80px;
+}
+.resultInternetTypeVal {
+  position: absolute;
+  top: 390px;
+  left: 350px;
+}
+.resultOnlineSecurity {
+  position: absolute;
+  top: 420px;
+  left: 80px;
+}
+.resultOnlineSecurityVal {
+  position: absolute;
+  top: 420px;
+  left: 350px;
+}
+.resultOnlineBackup {
+  position: absolute;
+  top: 450px;
+  left: 80px;
+}
+.resultOnlineBackupVal {
+  position: absolute;
+  top: 450px;
+  left: 350px;
+}
+.resultDeviceProtectionPlan {
+  position: absolute;
+  top: 480px;
+  left: 80px;
+}
+.resultDeviceProtectionPlanVal {
+  position: absolute;
+  top: 480px;
+  left: 350px;
+}
+.resultPremiumTechSupport {
+  position: absolute;
+  top: 510px;
+  left: 80px;
+}
+.resultPremiumTechSupportVal {
+  position: absolute;
+  top: 510px;
+  left: 350px;
+}
+.resultStreamingTV {
+  position: absolute;
+  top: 540px;
+  left: 80px;
+}
+.resultStreamingTVVal {
+  position: absolute;
+  top: 540px;
+  left: 350px;
+}
+.resultStreamingMovies {
+  position: absolute;
+  top: 570px;
+  left: 80px;
+}
+.resultStreamingMoviesVal {
+  position: absolute;
+  top: 570px;
+  left: 350px;
+}
+.resultUnlimitedData {
+  position: absolute;
+  top: 600px;
+  left: 80px;
+}
+.resultUnlimitedDataVal {
+  position: absolute;
+  top: 600px;
+  left: 350px;
+}
+.resultContract {
+  position: absolute;
+  top: 630px;
+  left: 80px;
+}
+.resultContractVal {
+  position: absolute;
+  top: 630px;
+  left: 350px;
+}

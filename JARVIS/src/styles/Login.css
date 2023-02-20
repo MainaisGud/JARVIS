@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.bloc-logo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.bloc-logo canvas,
+.bloc-logo .logo-mask {
+  width: 50%;
+  height: 100vh;
+  border-radius: 0px 90px 90px 0px;
+}
+.welcometxt {
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  left: 1200px;
+  top: 220px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    162.99deg,
+    #2958ae 11.71%,
+    rgba(41, 88, 174, 0) 121.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: normal;
+}
+.jarvislogo {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: -50px;
+  left: 1155px;
+}
+.emailicon {
+  position: absolute;
+  width: 26.61px;
+  height: 23.54px;
+  left: 1168px;
+  top: 380px;
+}
+.emailtxt {
+  position: absolute;
+  left: 1204px;
+  top: 380px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+}
+.emailtextbox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 1168px;
+  top: 420px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 0.8px solid #000000;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+.passwordicon {
+  position: absolute;
+  width: 27.07px;
+  height: 27.16px;
+  left: 1168px;
+  top: 500px;
+}
+.passwordtxt {
+  position: absolute;
+  left: 1204px;
+  top: 500px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+}
+.passwordtextbox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 1168px;
+  top: 540px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 0.8px solid #000000;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+.loginbutton {
+  position: absolute;
+  width: 350px;
+  height: 81px;
+  left: 1168px;
+  top: 650px;
+  background: #2958ae;
+  border-radius: 30px;
+  border-color: #2958ae;
+  position: absolute;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 120px;
+}
+.promptText {
+  position: absolute;
+  width: 332px;
+  height: 59px;
+  left: 1200px;
+  top: 750px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.txtbutton {
+  position: absolute;
+  width: 332px;
+  height: 59px;
+  left: 1435px;
+  top: 750px;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6464ff;
+}
+.txtbutton:hover {
+  border-radius: 2px;
+  color: #042b74;
+  transition: all 0.5s;
+  cursor: pointer;
+}
